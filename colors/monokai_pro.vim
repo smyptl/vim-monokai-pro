@@ -50,7 +50,7 @@ hi Function     ctermfg=149  ctermbg=NONE cterm=NONE         guifg=#a2e063 guibg
 hi Identifier   ctermfg=117  ctermbg=NONE cterm=NONE         guifg=#78dce8 guibg=NONE    gui=italic
 hi Keyword      ctermfg=204  ctermbg=NONE cterm=NONE         guifg=#ff6188 guibg=NONE    gui=NONE
 hi Label        ctermfg=204  ctermbg=NONE cterm=NONE         guifg=#ff6188 guibg=NONE    gui=NONE
-hi NonText      ctermfg=240  ctermbg=236  cterm=NONE         guifg=#5b595c guibg=#2d2a2e gui=NONE
+hi NonText      ctermfg=240  ctermbg=232  cterm=NONE         guifg=#5b595c guibg=#080808 gui=NONE
 hi Number       ctermfg=141  ctermbg=NONE cterm=NONE         guifg=#ab9df2 guibg=NONE    gui=NONE
 hi Special      ctermfg=220  ctermbg=NONE cterm=NONE         guifg=#ffd866 guibg=NONE    gui=NONE
 hi Operator     ctermfg=204  ctermbg=NONE cterm=NONE         guifg=#ff6188 guibg=NONE    gui=NONE
@@ -163,8 +163,3 @@ hi jsObjectSeparator            ctermfg=246  ctermbg=NONE cterm=NONE guifg=#9392
 hi jsLabel                      ctermfg=204  ctermbg=NONE cterm=NONE guifg=#ff6188 guibg=NONE    gui=NONE
 hi jsArrowFunction              ctermfg=204  ctermbg=NONE cterm=NONE guifg=#ff6188 guibg=NONE    gui=NONE
 hi jsUndefined                  ctermfg=141  ctermbg=NONE cterm=NONE guifg=#ab9df2 guibg=NONE    gui=NONE
-
-" GraphQL
-hi graphqlType                  ctermfg=231  ctermbg=236  cterm=NONE guifg=#fcfcfa guibg=#2d2a2e gui=NONE
-hi graphqlName                  ctermfg=220  ctermbg=NONE cterm=NONE guifg=#ffd866 guibg=NONE    gui=NONE
-hi graphqlBraces                ctermfg=246  ctermbg=NONE cterm=NONE guifg=#939293 guibg=NONE    gui=NONE
