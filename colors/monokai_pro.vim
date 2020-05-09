@@ -6,10 +6,12 @@
 set background=dark
 highlight clear
 
+hi clear
 if exists("syntax_on")
   syntax reset
 endif
 
+set t_Co=256
 let g:colors_name = "monokai_pro"
 
 " Default group
@@ -20,12 +22,12 @@ hi CursorLine ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#423f42 gui=NO
 hi CursorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#423f42 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#423f42 gui=NONE
 hi LineNr ctermfg=246 ctermbg=59 cterm=NONE guifg=#959394 guibg=#423f42 gui=NONE
-hi VertSplit ctermfg=59 ctermbg=59 cterm=NONE guifg=#696769 guibg=#696769 gui=NONE
+hi VertSplit ctermfg=59 ctermbg=59 cterm=NONE guifg=#626262 guibg=#626262 gui=NONE
 hi MatchParen ctermfg=204 ctermbg=NONE cterm=underline guifg=#ff6188 guibg=NONE gui=underline
-hi StatusLine ctermfg=231 ctermbg=59 cterm=bold guifg=#fcfcfa guibg=#696769 gui=bold
-hi StatusLineNC ctermfg=231 ctermbg=59 cterm=NONE guifg=#fcfcfa guibg=#696769 gui=NONE
+hi StatusLine ctermfg=231 ctermbg=59 cterm=bold guifg=#fcfcfa guibg=#626262 gui=bold
+hi StatusLineNC ctermfg=231 ctermbg=59 cterm=NONE guifg=#fcfcfa guibg=#626262 gui=NONE
 hi Pmenu ctermfg=150 ctermbg=NONE cterm=NONE guifg=#a2e063 guibg=NONE gui=NONE
-hi PmenuSel ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#NONE gui=NONE
+hi PmenuSel ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi IncSearch ctermfg=236 ctermbg=221 cterm=NONE guifg=#2d2a2e guibg=#ffd866 gui=NONE
 hi Search ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 hi Directory ctermfg=209 ctermbg=NONE cterm=NONE guifg=#ff7d3d guibg=NONE gui=NONE
